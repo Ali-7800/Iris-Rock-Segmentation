@@ -1,1 +1,1 @@
-# Iris-Rock-Segmentation
+# Iris Rock Segmentation
