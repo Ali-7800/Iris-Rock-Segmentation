@@ -4,7 +4,7 @@ Iris Rock Segmentation is a MATLAB implementation of the rock detection method o
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/diagram.PNG "Block Diagram")
 
 ## Related Publications
-
+[1] 
 
 ## Main Functions
 
@@ -16,6 +16,19 @@ Used to process all the png and jpg images from the input folder to the output f
 
 
 ## Sub Functions
+
+### fcn_propertyImages
+
+This functions creates different versions of the image for segementation and stores them in a cell
+
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_propertyImages/property_image.jpg "Property Images")
+
+### fcn_horizonDetect1
+
+Takes in an image and attempts to find the horizon line using thresholding
+
+
+
 
 
 
