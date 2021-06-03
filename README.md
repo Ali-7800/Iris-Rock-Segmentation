@@ -1,10 +1,10 @@
 # Iris Rock Segmentation
-Iris Rock Segmentation is a MATLAB implementation of the rock detection method outlined in "" the uses a combination of edge detection/range filtering and superpixels to detect rocks/objects in images and accurately localize their boundaries.
+Iris Rock Segmentation is a MATLAB implementation of the rock detection method outlined in "Rock Detection and Accurate Boundary Localization Through Non-Learning Based Superpixel Optimization" the uses a combination of edge detection/range filtering and superpixels to detect rocks/objects in images and accurately localize their boundaries.
 
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/diagram.PNG "Block Diagram")
 
 ## Related Publications
-[1] 
+[1] A. Albazroun, R. Duvall, W. Whittaker. Rock Detection and Accurate Boundary Localization Through Non-Learning Based Superpixel Optimization. RISS Journal. 2020.
 
 ## Main Functions
 
