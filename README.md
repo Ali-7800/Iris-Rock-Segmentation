@@ -9,8 +9,11 @@ Iris Rock Segmentation is a MATLAB implementation of the rock detection method o
 ## Main Functions
 
 ### rock_segment
+Used to detect rocks in a single image from the input folder to the output folder.
 
 ### process_input
+Used to process all the png and jpg images from the input folder to the output folder.
+
 
 ## Sub Functions
 
