@@ -142,5 +142,5 @@ Posting processing to make the reduce the number of objects below a certain thre
 
 # fcn_overlay
 This function is commented by default, you can uncomment it to overlay the boundaries on the original image and outputs to the output folder.
-![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_overlay/overlay_test_image.jpg "Overlay" )
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_overlay/overlay_test_image.png "Overlay" )
 
