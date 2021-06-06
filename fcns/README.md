@@ -100,7 +100,7 @@ Edge based binary filter in case ```fcn_blobDetect1``` result is too noisy. Uses
 
 # fcn_blobsExtra
 Additional smaller to medium blobs found using thresholding. Works better than the other two methods in finding blobs in synthetic or simulated images.
-![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobExtra/75.jpg "Blobs")
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobsExtra/75.jpg "Blobs")
 
 # fcn_boundingBoxes
 This function creates non-overlaping bounding boxes for the blobs in a binary image, this ends the detection part of the algorithm what comes after is related to boundary localization.
