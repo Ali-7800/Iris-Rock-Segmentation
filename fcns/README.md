@@ -117,7 +117,12 @@ Gradient filter to make the segmentation rounder, creates a gradient around each
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/2.jpg "Single Rock")
 
 ## Multiple Rocks
-![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/1.jpg?style=centerme "Multiple Rocks" )
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/1.jpg "Multiple Rocks" )
+
+# fcn_rate
+This function creates a superpixel segmentation of the image then produces a number of binary images using thresholding on that superpixel segmentation. After that it compares each binary image to the blob image produced before and rates them based on rating function and outputs the binary image with the maximum rating.
+
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_rate/rating.gif "Rating" )
 
 
 
