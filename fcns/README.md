@@ -117,7 +117,7 @@ Gradient filter to make the segmentation rounder, creates a gradient around each
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/2.jpg "Single Rock")
 
 ## Multiple Rocks
-![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/1.jpg "Multiple Rocks" style=centerme)
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/1.jpg "Multiple Rocks" ?style=centerme)
 
 
 
