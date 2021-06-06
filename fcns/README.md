@@ -61,5 +61,9 @@ This function detects the shadows in an image using Otsu's thresholding and the 
 ### Take The Complement And Remove The Sky (Anything Above The Horizon)
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_shadowDetect/shadows.jpg "Remove Smaller Objects")
 
+# fcn_blobDetect1
+This uses range + std filters to create a rough/blob image for comparison later this method is very experimental nothing is concrete. Can sometimes produce very noisy results.
+
+
 
 
