@@ -137,6 +137,8 @@ This function refines the rock segmentation by (dilation, filling holes, erosion
 ## Example 2
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_refineSegmentation/2.jpg "Example 2" )
 
+# fcn_postProcess (WIP)
+Posting processing to make the reduce the number of objects below a certain threshold, then tries to sort non-rock and rock objects (WIP).
 
-
-
+# fcn_overlay
+This function is commented by default, you can uncomment it to overlay the boundaries on the original image and outputs to the output folder.
