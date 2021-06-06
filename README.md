@@ -15,17 +15,7 @@ Used to detect rocks in a single image from the input folder to the output folde
 Used to process all the png and jpg images from the input folder to the output folder. Just put the jpg/png images to be processed in the input folder and run the script and the equivalent **rocksBW** binary image for each image will be saved in the output folder.
 
 
-## Sub Functions
 
-### fcn_propertyImages
-
-This functions creates different versions of the image for segementation and stores them in a cell
-
-![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_propertyImages/property_image.jpg "Property Images")
-
-### fcn_horizonDetect1
-
-Takes in an image and attempts to find the horizon line using thresholding
 
 
 
