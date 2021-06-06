@@ -128,6 +128,15 @@ This function creates a superpixel segmentation of the image then produces a num
 
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_rate/rating.gif "Rating" )
 
+# fcn_refineSegmentation
+This function refines the rock segmentation by (dilation, filling holes, erosion) and taking shadows into account
+
+## Example 1
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_refineSegmentation/1.jpg "Example 1" )
+
+## Example 2
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_refineSegmentation/2.jpg "Example 2" )
+
 
 
 
