@@ -1,8 +1,12 @@
 # fcn_propertyImages
 
-This functions creates different versions of the image for segementation and stores them in a cell
+This function creates different versions of the image for segementation and stores them in a cell
 
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_propertyImages/property_image.jpg "Property Images")
+
+# fcn_showPropertyImages
+
+This function is uncommented by default, it shows the images from ```fcn_propertyImages```. Used for debugging purposes.
 
 # fcn_horizonDetect1
 
@@ -123,6 +127,7 @@ Gradient filter to make the segmentation rounder, creates a gradient around each
 This function creates a superpixel segmentation of the image then produces a number of binary images using thresholding on that superpixel segmentation. After that it compares each binary image to the blob image produced before and rates them based on rating function and outputs the binary image with the maximum rating.
 
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_rate/rating.gif "Rating" )
+
 
 
 
