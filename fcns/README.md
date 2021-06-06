@@ -107,5 +107,17 @@ This function creates non-overlaping bounding boxes for the blobs in a binary im
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_boundingBoxes/boxes.jpg "Boxes")
 
 
+# fcn_showBoxes
+This function is commented by default, you can uncomment it to show the boxes similar to the ones above, used for debugging purposes in order to know if something went wrong with the blob detection.
+
+# fcn_filter
+Gradient filter to make the segmentation rounder, creates a gradient around each blob centroid in a bounding box.
+
+## Single Rock
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/2.jpg "Single Rock")
+
+## Multiple Rocks
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/1.jpg "Multiple Rocks")
+
 
 
