@@ -74,4 +74,17 @@ This uses range + std filters to create a rough/blob image for comparison later 
 ### Std Filter Blobs
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/blobs_std.jpg "Std Filter Blobs")
 ### Range + Std Filter Blobs
-![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/range_filter.jpg "Range Filter")
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/blobs.jpg "Blobs")
+
+## Failure Case
+### Range Filter
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/noise/range_filter.jpg "Range Filter")
+### Range Filter Blobs
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/noise/range_blobs.jpg "Range Filter Blobs")
+### Std Filter
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/noise/std_filter.jpg "Std Filter")
+### Std Filter Blobs
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/noise/blobs_std.jpg "Std Filter Blobs")
+### Range + Std Filter Blobs
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/noise/blobs.jpg "Blobs")
+
