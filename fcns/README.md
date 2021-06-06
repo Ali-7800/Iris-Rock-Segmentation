@@ -88,3 +88,13 @@ This uses range + std filters to create a rough/blob image for comparison later 
 ### Range + Std Filter Blobs
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/noise/blobs.jpg "Blobs")
 
+# fcn_blobDetect2
+Edge based binary filter in case ```fcn_blobDetect1``` result is too noisy. Uses Gaussian Filtering proportional to the noise in the image to reduce it.
+
+## Gaussian Filter
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect2/filter.jpg "Gaussian Filter")
+## Edge Detection
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect2/edge.jpg "Edge Detection")
+## Create Blobs
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect2/final.jpg "Blobs")
+
