@@ -55,15 +55,23 @@ This method assume that the horizon is a straight horizontal line and finds it b
 # fcn_shadowDetect
 This function detects the shadows in an image using Otsu's thresholding and the horizon line found from ```fcn_horizonDetect3```.
 
-### Otsu's Thresholding
+## Otsu's Thresholding
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_shadowDetect/otsu.jpg "Otsu's Thresholding")
 
-### Take The Complement And Remove The Sky (Anything Above The Horizon)
+## Take The Complement And Remove The Sky (Anything Above The Horizon)
 ![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_shadowDetect/shadows.jpg "Remove Smaller Objects")
 
 # fcn_blobDetect1
 This uses range + std filters to create a rough/blob image for comparison later this method is very experimental nothing is concrete. Can sometimes produce very noisy results.
 
-
-
-
+## Successful Case
+### Range Filter
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/range_filter.jpg "Range Filter")
+### Range Filter Blobs
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/range_blobs.jpg "Range Filter Blobs")
+### Std Filter
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/std_filter.jpg "Std Filter")
+### Std Filter Blobs
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/blobs_std.jpg "Std Filter Blobs")
+### Range + Std Filter Blobs
+![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_blobDetect1/range_filter.jpg "Range Filter")
