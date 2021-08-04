@@ -118,10 +118,13 @@ This function is commented by default, you can uncomment it to show the boxes si
 Gradient filter to make the segmentation rounder, creates a gradient around each blob centroid in a bounding box.
 
 ## Single Rock
-![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/2.jpg "Single Rock")
-
+<p align="center">
+  <img src="https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/2.jpg" />
+</p>
 ## Multiple Rocks
-![alt text](https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/1.jpg "Multiple Rocks" )
+<p align="center">
+  <img src="https://github.com/Ali-7800/Iris-Rock-Segmentation/blob/main/viz/fcn_filter/1.jpg" />
+</p>
 
 ## ```fcn_rate```
 This function creates a superpixel segmentation of the image then produces a number of binary images/segmentations using thresholding on that superpixel segmentation. After that it compares each binary image to the blob image produced before and rates them based on rating function that takes into account how much each binary image does match and does not match the original image and other variables like the area of the segmentation and how much it overlaps with the bounding box. In the end it outputs the binary image with the maximum rating.
